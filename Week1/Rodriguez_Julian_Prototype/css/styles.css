@@ -32,6 +32,8 @@ h1{
 #landing{
     padding:8px 10px 8px 10px;
     margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
     width:960px;
     background-color:#2B324F;
 }
@@ -78,7 +80,34 @@ h1{
 
 /*Admin Page*/
 
+#admin{
+    padding:8px 10px 8px 10px;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:960px;
+    background-color:#2B324F;
+}
 
+#admin .bAdmin{
+    background-color:#fff;
+    float:left;
+    margin:20px;
+    width:200px;
+    height:200px;
+}
+
+#admin .bAdmin img{
+    margin:0 50px;
+    margin-top:10px;
+    margin-bottom:20px;
+    width:100px;
+}
+
+#admin .bAdmin p{
+    text-align:center;
+
+}
 
 
 /*Basic Structure*/
