@@ -26,6 +26,61 @@ h1{
     font-size:1.4em;
 }
 
+
+/*landing page style*/
+
+#landing{
+    padding:8px 10px 8px 10px;
+    margin:0 auto;
+    width:960px;
+    background-color:#2B324F;
+}
+
+#landing h1{
+    margin:0 328px;
+    color:#fff;
+}
+
+#landing img{
+    pading:0;
+    margin:0 240px;
+    width:480px;
+}
+
+#landing ul{
+    margin:0 106px;
+}
+
+#landing ul li{
+    list-style:none;
+    display:inline-block;
+    text-align:center;
+    background-color:#8BB1DE;
+    width:250px;
+    padding:10px 0 10px 0;
+    margin:0px 40px 0px 40px;
+}
+
+#landing form{
+    margin:0 93px;
+}
+
+#landing form input{
+    padding:10px 20px 10px 20px;
+    margin:0px 20px 20px 20px;
+    width:300px;
+}
+
+#landing .registration input{
+    display:block;
+    float:left;
+}
+
+/*Admin Page*/
+
+
+
+
 /*Basic Structure*/
 
 header{
