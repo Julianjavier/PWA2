@@ -5,6 +5,13 @@ $(document).ready(function() {
     });
 });
 
+//News Ticker
+
+$(function () {
+    $('#js-news').ticker();
+    });
+
+
 //Carusel Slider
 $(document).ready(function(){
     $('#slidorion').slidorion({

@@ -4,7 +4,7 @@
     <list default="true" id="ff24dcf5-26b3-4c7e-9132-69398aef9b60" name="Default" comment="" />
     <ignored path="Rodriguez_Julian_B9.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392513509184" ignored="false" />
+    <file path="/index.html" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392525253073" ignored="false" />
     <file path="/styles.css" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392518761375" ignored="false" />
     <file path="/wiki.html" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392520979852" ignored="false" />
     <file path="/admin.html" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1391898784536" ignored="false" />
@@ -15,7 +15,8 @@
     <file path="$USER_HOME$/Downloads/05_01_StudentFiles/js/05_01.js" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392472838856" ignored="false" />
     <file path="/snowfall.js" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392513605171" ignored="false" />
     <file path="/lightbox.css" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392508054819" ignored="false" />
-    <file path="/slidorion.css" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392521391348" ignored="false" />
+    <file path="/slidorion.css" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392524966776" ignored="false" />
+    <file path="/jquery.ticker.js" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392525445476" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +39,19 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="44" selection-start="915" selection-end="915" vertical-scroll-proportion="-8.0">
+            <state line="50" column="69" selection-start="2109" selection-end="2109" vertical-scroll-proportion="-13.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.ticker.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.ticker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="51" selection-start="4384" selection-end="4384" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,27 +59,16 @@
       <file leaf-file-name="wiki.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="10" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-8.125">
-              <folding>
-                <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#1;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#2;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#0;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#1;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#2;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#3;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state line="51" column="10" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slidorion.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="slidorion.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/slidorion.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="536" selection-end="536" vertical-scroll-proportion="0.47413793">
+            <state line="97" column="31" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,15 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="33" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#336#492#0" expanded="false" />
-                <element signature="e#538#1589#0" expanded="false" />
-                <element signature="e#1643#2045#0" expanded="false" />
-              </folding>
+            <state line="20" column="22" selection-start="354" selection-end="354" vertical-scroll-proportion="0.43103448">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,10 +95,8 @@
       <file leaf-file-name="snowfall.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/snowfall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="38" selection-start="2338" selection-end="2338" vertical-scroll-proportion="16.153847">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="53" column="0" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,16 +123,16 @@
         <option value="$PROJECT_DIR$/admin.html" />
         <option value="$PROJECT_DIR$/css/lightbox.css" />
         <option value="$PROJECT_DIR$/js/snowfall.js" />
-        <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/wiki.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/css/slidorion.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/jquery.ticker.js" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="844" />
@@ -266,13 +261,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="22" width="1440" height="844" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="844" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24629499" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24629499" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -348,24 +343,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wiki.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="5" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#2;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#2;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#3;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="65" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
@@ -390,18 +367,7 @@
     <entry file="file://$PROJECT_DIR$/wiki.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="5" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#2;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#2;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#3;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -437,53 +403,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.5">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/snowfall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="38" selection-start="2338" selection-end="2338" vertical-scroll-proportion="16.153847">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="33" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#336#492#0" expanded="false" />
-            <element signature="e#538#1589#0" expanded="false" />
-            <element signature="e#1643#2045#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="44" selection-start="915" selection-end="915" vertical-scroll-proportion="-8.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wiki.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="10" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-8.125">
-          <folding>
-            <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#2;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#2;tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#3;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="51" column="10" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -496,7 +424,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/slidorion.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="536" selection-end="536" vertical-scroll-proportion="0.47413793">
+        <state line="97" column="31" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="69" selection-start="2109" selection-end="2109" vertical-scroll-proportion="-13.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/snowfall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.ticker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="51" selection-start="4384" selection-end="4384" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="354" selection-end="354" vertical-scroll-proportion="0.43103448">
           <folding />
         </state>
       </provider>
