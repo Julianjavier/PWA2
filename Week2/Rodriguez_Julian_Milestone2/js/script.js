@@ -5,6 +5,15 @@ $(document).ready(function() {
     });
 });
 
+//Carusel Slider
+$(document).ready(function(){
+    $('#slidorion').slidorion({
+        speed: 1000,
+        interval: 4000,
+        effect: 'slideLeft'
+    });
+});
+
 
 //image effects
 $(document).ready(function(){
