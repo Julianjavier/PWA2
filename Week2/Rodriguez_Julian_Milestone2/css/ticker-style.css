@@ -5,10 +5,10 @@
 	width: 780px;
 	height: 32px;
 	display: block;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	background-color: #f8f0db;
+	/*-webkit-border-radius: 15px;*/
+	/*-moz-border-radius: 15px;*/
+	/*border-radius: 15px;*/
+	background-color: #d4f2ff;
 	font-size: 0.75em;
 }
 .ticker {
@@ -17,7 +17,7 @@
 	display: block;
 	position: relative;
 	overflow: hidden;
-	background-color: #f8f0db;
+	background-color: #d4f2ff;
 }
 .ticker-title {
 	padding-top: 9px;
@@ -32,13 +32,13 @@
 	position: absolute;
 	color: #1F527B;
 	font-weight: bold;
-	background-color: #f8f0db;
+	background-color: #d4f2ff;
 	overflow: hidden;
 	white-space: nowrap;
 	line-height: 1.2em;
 }
 .ticker-content:focus {
-	none;
+	/*none;*/
 }
 .ticker-content a {
 	text-decoration: none;	
@@ -52,14 +52,14 @@
 	padding-top: 9px;
 	position: absolute;
 	top: 0px;
-	background-color: #f8f0db;
+	background-color: #d4f2ff;
 	display: block;
 	width: 800px;
 	height: 23px; 
 }
 .ticker-swipe span {
 	margin-left: 1px;
-	background-color: #f8f0db;
+	background-color: #d4f2ff;
 	border-bottom: 1px solid #1F527B;
 	height: 12px;
 	width: 7px;
@@ -80,7 +80,7 @@
 	display: block;
 }
 .ticker-controls li.jnt-play-pause {
-	background-image: url('../images/controls.png');
+	background-image: url('../img/controls.png');
 	background-position: 32px 16px;
 }
 .ticker-controls li.jnt-play-pause.over {
@@ -90,7 +90,7 @@
 	background-position: 32px 0px;
 }
 .ticker-controls li.jnt-play-pause.paused {
-	background-image: url('../images/controls.png');	
+	background-image: url('../img/controls.png');
 	background-position: 48px 16px;
 }
 .ticker-controls li.jnt-play-pause.paused.over {
@@ -100,7 +100,7 @@
 	background-position: 48px 0px;
 }
 .ticker-controls li.jnt-prev {
-	background-image: url('../images/controls.png');
+	background-image: url('../img/controls.png');
 	background-position: 0px 16px;		
 }
 .ticker-controls li.jnt-prev.over {
@@ -110,7 +110,7 @@
 	background-position: 0px 0px;		
 }
 .ticker-controls li.jnt-next {
-	background-image: url('../images/controls.png');	
+	background-image: url('../img/controls.png');
 	background-position: 16px 16px;	
 }
 .ticker-controls li.jnt-next.over {

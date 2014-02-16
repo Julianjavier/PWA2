@@ -7,9 +7,9 @@ $(document).ready(function() {
 
 //News Ticker
 
-$(function () {
-    $('#js-news').ticker();
-    });
+//$(function () {
+//    $('#js-news').ticker();
+//    });
 
 
 //Carusel Slider
