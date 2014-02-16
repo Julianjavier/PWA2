@@ -79,7 +79,7 @@ $(document).ready(function(){
         $('.DRGsubC').toggle(
 
             function(){
-                $('.DRGsubC').slideUp(500)
+                $('.DRGsubC').slideDown(500)
             });
 
     });
