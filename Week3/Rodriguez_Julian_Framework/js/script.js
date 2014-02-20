@@ -129,24 +129,26 @@ $(document).ready(function() {
 
 //Login function:
 
-
-
-
-
     $("#logB").click(function(e){
+        e.preventDefault();
+
         var user= $('#user').val();
         var pass= $('#pass').val();
-        e.preventDefault();
+
+        console.log(user);
         $.ajax({
             url:'xhr/login.php',
-            type: 'get',
-            dataType:'json',
-            data:{username:user ,
-                  password:pass
+            data:{
+                    username:user ,
+                    password:pass
                  },
+            type: 'post',
+            dataType:'json',
             success: function(response){
+
+               window.location.assign("admin.html")
+
                 console.log(response);
-                console.log("IT LIVES")
             }
 
         });
