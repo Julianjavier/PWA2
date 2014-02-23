@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Cinzel:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/slidorion.css" />
+    <title>Prototype</title>
+</head>
+<body>
+
+
+    <header>
+
+        <button id="logout">Logout</button>
+
+        <hr>
+
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="http://na.finalfantasyxiv.com/lodestone">Lodestone</a></li>
+                <li><a href="http://www.arrstatus.com/">Servers</a></li>
+                <li><a href="#">Stat Charts</a></li>
+                <li><a href="http://finalfantasy.wikia.com/wiki/Final_Fantasy_XIV">Lore</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+
+
+    <!--<div class="hero">-->
+        <!--<div class="callAction">-->
+            <!--<h1>Patch 2.2 Is Coming!</h1>-->
+            <!--<h4><a href="#">Keep up with server status!</a></h4>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--Information form the admi news stream will be added here-->
+    <div id="slidorion" class="slidorion">
+        <div class="slider">
+            <div class="slide"><img src="img/BKM.jpg" /></div>
+            <div class="slide"><img src="img/PAL.jpg" /></div>
+            <div class="slide"><img src="img/WAR.jpg" /></div>
+        </div>
+
+        <div class="accordion">
+            <div class="header">Loot Vikings</div>
+            <div class="content">Team Loot Vikings have cleard Cristal Tower are currently working on relic weapons. </div>
+            <div class="header">Coil Team 3</div>
+            <div class="content">IS NOW ACCEPTING ROSTER REGISTRATION. CURRENTLY NEED DPS AND HEALING!</div>
+            <div class="header">OBLIT SARABI 100% NEKO</div>
+            <div class="content">Oblit Sarabi is now the most geared individual and the only one to have sucssesfuly cleared Coil Turn 5 within Vagrant.</div>
+        </div>
+    </div>
+    <!--End News-->
+
+    <canvas id="snowfall"></canvas>
+
+<div class="wrapper">
+
+    <hr>
+
+    <div class="subHead">
+        <h2>Job Classes</h2>
+    </div>
+
+    <div class="row">
+
+        <div class="thumb">
+            <div class="timg">
+                <img src="img/PAL.jpg" alt="#">
+            </div>
+            <div class="content">
+                <h3>Paladin</h3>
+                <p>For centuries, the elite of the Sultansworn have served as personal bodyguards to the royal family of Ul'dah. Known as paladins, these men and women marry exquisite swordplay with stalwart shieldwork to create a style of combat uncompromising in its defense. Clad in brilliant silver armor, they charge fearlessly into battle, ever ready to lay down their lives for their liege. To be a paladin is to protect, and those who choose to walk this path will become the iron foundation upon which the party's defense is built.</p>
+            </div>
+
+            <button id="PALbtn">More Info</button>
+
+            <hr>
+
+            <div class="PALsubC">
+
+            <div class="col-5">
+
+                <h2>Main Skills</h2>
+
+                <ul>
+                    <li>Sword Oath</li>
+                    <p>Increases the potency of auto-attacks by 50.
+                        Cannot be used with Shield Oath.
+                        Effect ends upon reuse.</p>
+
+                    <li>Cover</li>
+                    <p>Takes all physical damage intended for another party member for 12s.
+                        Can only be used when the party member is 6y or closer.</p>
+
+                    <li>Shield Oath</li>
+                    <p>Reduces damage received by 20% and increases enmity, while lowering damage dealt by 20%.
+                        Cannot be used with Sword Oath.
+                        Effect ends upon reuse.</p>
+
+                    <li>Spirits Within</li>
+                    <p>Delivers an attack with a potency of 300.
+                        Potency decreases as HP decreases.</p>
+
+                    <li>Hallowed Ground</li>
+                    <p>Renders you impervious to most attacks for 10s.</p>
+                </ul>
+
+            </div>
+
+            <div class="subVideo">
+
+                <h2>Job Synopsis</h2>
+
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/CWHj695Qwbk" frameborder="0" allowfullscreen></iframe>
+
+                <hr>
+
+                <h2>Rotation Notes</h2>
+                <p>The Paladin has a wide range of skills designed to hold enmity or mitigate damage, as you'd expect. Some are situational while others you will use on a regular basis. The job also has some combos designed for increasing enmity and one designed for damage. These combos are listed below. </p>
+
+                <hr class="hidden">
+
+                <ul>
+                    <li>Fast Blade > Riot Blade</li>
+                    <li>Fast Blade > Savage Blade</li>
+                    <li>Savage Blade > Rage of Halone</li>
+                    <li>Fast Blade > Savage Blade > Rage of Halone </li>
+                </ul>
+
+            </div>
+
+            </div>
+
+        </div>
+
+        <div class="thumb">
+            <div class="timg">
+                <img src="img/WAR.jpg" alt="#">
+            </div>
+            <div class="content">
+                <h3>Warrior</h3>
+                <p>On the northernmost edge of Abalathia's Spine exists a mountain tribe renowned for producing fearsome mercenaries. Wielding greataxes and known as warriors, these men and women learn to harness their inner-beasts and translate that power to unbridled savagery on the battlefield.In former times which saw war waged ceaselessly in Eorzea, the warriors featured prominently on the frontlines of battle. With the arrival of peacetime, however, their art has descended into the shadows of obscurity, where it remains to this day.</p>
+            </div>
+
+            <button id="WARbtn">More Info</button>
+
+
+            <hr>
+
+            <div class="WARsubC">
+
+            <div class="col-5">
+
+                <h2>Main Skills</h2>
+
+                <ul>
+                    <li>Defiance</li>
+                    <p>Increases maximum HP by 25%, while lowering damage dealt by 25% and increasing enmity.
+                        Increases HP recovery via curing magic by 20% for self. Ends upon reuse.
+                        Using certain actions while under the effect of Defiance will grant Wrath.
+                        Each unit of Wrath increases critical hit rate by 2%. When five units are stacked, you will become Infuriated.
+                        All Wrath is lost when Defiance ends.</p>
+
+                    <li>Inner Beast</li>
+                    <p>Delivers an attack with a potency of 300.
+                        Ignores the 35% damage penalty inflicted by Defiance.
+                        Can only be executed when Infuriated. All Wrath is lost when used.
+                        Additional Effect: Absorb 100% of damage dealt as HP
+                        Additional Effect: Reduces damage taken by 20%</p>
+
+                    <li>Unchained</li>
+                    <p>Nullifies the damage penalty inflicted by Defiance for 20s.
+                        Can only be executed when Infuriated. All Wrath is lost when used.
+                        Effect is canceled if Defiance ends.</p>
+
+                    <li>Steel Cyclone</li>
+                    <p>Delivers an attack with a potency of 200 to all nearby enemies.
+                        Ignores the 35% damage penalty inflicted by Defiance.
+                        Can only be executed when Infuriated. All Wrath is lost when used.
+                        Additional Effect: Increased enmity</p>
+
+                    <li>Infuriate</li>
+                    <p>Instantly grants five units of Wrath, changing status to Infuriated.
+                        Can only be used when Defiance is active.</p>
+                </ul>
+
+            </div>
+
+            <div class="subVideo">
+
+                <h2>Job Synopsis</h2>
+
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/Vh4W1Z2ybFo" frameborder="0" allowfullscreen></iframe>
+
+                <hr>
+
+                <h2>Rotation Notes</h2>
+                <p>As mentioned earlier, the Warrior uses damage in order to retain enmity and a lot of this is generated via powerful combos. These combos need to be planned and used alongside other buffs in order to maximise their damage and enmity generation. Before we get into the skill rotations it is worth listing what these combos are.</p>
+
+                <hr class="hidden">
+
+                <ul>
+                    <li>Heavy Swing > Skull Sunder</li>
+                    <li>Heavy Swing > Maim</li>
+                    <li>Maim > Storm's Path</li>
+                    <li>Maim > Storm's Eye</li>
+                    <li>Skull Sunder > Butcher's Block</li>
+                    <li>Heavy Swing > Maim > Storm's Path</li>
+                    <li>Heavy Swing > Maim > Storm's Eye</li>
+                    <li>Heavy Swing > Skull Sunder > Butcher's Block</li>
+                </ul>
+
+            </div>
+
+            </div>
+
+        </div>
+
+        <div class="thumb">
+            <div class="timg">
+                <img src="img/DRG.jpg" alt="#">
+            </div>
+
+            <div class="content">
+                <h3>Dragoon</h3>
+                <p>Of all the things that are symbolic of the nation of Ishgard, few are more recognized than the dragoon. Born amidst the timeless conflict between men and dragons, these lance-wielding knights have developed an aerial style of combat, that they might better pierce the scaled hides of their mortal foes.Taking to the firmament as though it were an extension of the land, they descend upon the enemy with every onze of their bodies behind the blow. It is this penetrative power that characterizes the dragoon</p>
+            </div>
+
+            <button id="DRGbtn">More Info</button>
+
+
+            <hr>
+
+            <div class="DRGsubC">
+
+
+            <div class="col-5">
+
+                <h2>Main Skills</h2>
+
+                <ul>
+                    <li>Jump</li>
+                    <p>Delivers a jumping attack with a potency of 200. Returns you to your original position after the attack is made.
+                        Cannot be executed while bound.</p>
+
+                    <li>Elusive Jump</li>
+                    <p>Executes a jump to a location 15y behind you, while removing any Heavy or Bind effects.
+                        Additional Effect: Reduces enmity.</p>
+
+                    <li>Spineshatter Dive</li>
+                    <p>Delivers a jumping attack with a potency of 170.
+                        Additional Effect: Stun for 2s.
+                        Cannot be executed while bound.</p>
+
+                    <li>Power Surge</li>
+                    <p>Increases the damage dealt by one Jump or Spineshatter Dive by 50% for 10s.</p>
+
+                    <li>Dragonfire Dive</li>
+                    <p>Delivers a jumping fire-based attack with a potency of 250 to all nearby enemies.
+                        Cannot be executed while bound.</p>
+                </ul>
+
+            </div>
+
+            <div class="subVideo">
+
+                <h2>Job Synopsis</h2>
+
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/8l0ZaEcCQLk" frameborder="0" allowfullscreen></iframe>
+
+                <hr>
+
+                <h2>Rotation Notes</h2>
+                <p>As mentioned earlier, the Dragoon uses combos to deal heavy damage to their targets. These combos need to be planned and used alongside other buffs in order to maximise their damage. Before we get into the skill rotations it is worth listing what these combos are.</p>
+
+                <hr class="hidden">
+
+                <ul>
+                    <li>True Thrust > Vorpal Thrust</li>
+                    <li>Vorpal Thrust > Full Thrust</li>
+                    <li>Impulse Drive > Disembowel</li>
+                    <li>Heavy Thrust > Ring of Thorns</li>
+                    <li>Disembowel > Chaos Thrust</li>
+                    <li>True Thrust > Vorpal Thrust > Full Thrust</li>
+                    <li>Impulse Drive > Disembowel > Chaos Thrust </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="thumb">
+            <div class="timg">
+                <img src="img/MNK.jpg" alt="#">
+            </div>
+
+            <div class="content">
+                <h3>Monk</h3>
+                <p>Though now under Garlean rule, the city-state of Ala Mhigo once boasted the greatest military might of all Eorzea. Among its standing armies were the monks ascetic warriors as dreaded by foes on the field of battle as the city states great pikemen.The monks comprised an order known as the Fist of Rhalgr, and it was to this god the Destroyer that they devoted their lives of worship. By mastering seats of power within the body known as chakra, they are capable of performing extraordinary physical feats</p>
+            </div>
+
+            <button id="MNKbtn">More Info</button>
+
+            <hr>
+
+            <div class="MNKsubC">
+
+            <div class="col-5">
+
+                <h2>Main Skills</h2>
+
+                <ul>
+                    <li>Rockbreaker</li>
+                    <p>Delivers an attack with a potency of 130 to all enemies in a cone before you.
+                        Can only be used when in coeurl form.
+                        Additional Effect: Changes form to opo-opo for 10s.
+                        Additional Effect: Grants Greased Lightning for 12s.
+                        Greased Lightning Bonus: Increases damage dealt by 7% and attack speed by 5%.</p>
+
+                    <li>Shoulder Tackle</li>
+                    <p>Rushes to target and delivers an attack with a potency of 100.
+                        Additional Effect: Stun for 2s.
+                        Cannot be executed while bound.</p>
+
+                    <li>Fists of Fire</li>
+                    <p>Increases damage dealt by 5%.
+                        Cannot be used with Fists of Earth or Fists of Wind and shares cooldown with both.
+                        Effect ends upon reuse.</p>
+
+                    <li>One Ilm Punch</li>
+                    <p>Delivers an attack with a potency of 80.
+                        Can only be used when in raptor form.
+                        Additional Effect: Removes one beneficial status from target.
+                        Additional Effect: Changes form to coeurl for 10s.</p>
+
+                    <li>Dragon Kick</li>
+                    <p>Delivers an attack with a potency of 100.
+                        150 when delivered from a target's flank.
+                        Opo-opo Form Bonus: Reduces target's blunt resistance and Intelligence by 10% for 15s.
+                        Additional Effect: Changes form to raptor for 10s.</p>
+                </ul>
+
+            </div>
+
+            <div class="subVideo">
+
+                <h2>Job Synopsis</h2>
+
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/OQGrcWu00U8" frameborder="0" allowfullscreen></iframe>
+
+                <hr>
+
+                <h2>Rotation Notes</h2>
+                <p>Ideally you should be aiming for Greased Lightning buff so you will try to use one skill from each form in order to get there as fast as possible. One thing to remember is that positioning is key with a lot of Monk skills. You may need to be behind or on a target's flank for maximum damage though you don't want to be moving around with every action as it may not always be possible. The skill rotation for Monk is somewhere along the lines of this:</p>
+
+                <hr class="hidden">
+
+                <ul>
+                    <li>Fists Of Fire</li>
+                    <li>Boot Shine - Behind</li>
+                    <li>True Strike - Behind</li>
+                    <li>Demolish - Behind </li>
+                    <li>Touch of Death Fracture </li>
+                    <li>Dragon Kick - Flank</li>
+                    <li>Twin Snakes - Flank</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        </div>
+
+
+            <div class="thumb">
+            <div class="timg">
+                <img src="img/BKM.jpg" alt="#">
+            </div>
+            <div class="content">
+                <h3>Black Mage</h3>
+                <p>In days long past, there existed an occult and arcane art known as black magica, potent magic of pure destructive force born forth by a sorceress of unparalleled power. Those who learned to wield this instrument of ruin came to be called black mages, out of both fear and respect for their gift. Yet great power served to corrupt the judgment of mortal man, and so he unknowingly set out upon the path of ruin.</p>
+            </div>
+
+            <button id="BKMbtn">More Info</button>
+
+            <hr>
+
+            <div class="BKMsubC">
+
+            <div class="col-5">
+
+                <h2>Main Skills</h2>
+
+                <ul>
+                    <li>Convert</li>
+                    <p>Sacrifices 20% of maximum HP to restore 30% of MP.
+                        Cannot be executed when current HP is lower than 20%.</p>
+
+                    <li>Freez</li>
+                    <p>Covers a designated area in ice, dealing ice damage with a potency of 20 and binding enemies that enter for 15s.
+                        Additional Effect: Grants Umbral Ice for 10s or removes Astral Fire</p>
+
+                    <li>Apocatastasis</li>
+                    <p>Increases a party member's fire, ice and lightning resistances by 30% for 12s.
+                        Cannot be reused on an individual for 60s from when the effect wears off.
+                        Cannot be cast on self.</p>
+
+                    <li>Manawall</li>
+                    <p>Creates a barrier that nullifies two physical attacks for 60s.</p>
+
+                    <li>Flare</li>
+                    <p>Deals fire damage with a potency of 260 to a target and enemies near it.
+                        Additional Effect: Grants Astral Fire III for 10s or removes Umbral Ice.</p>
+                </ul>
+
+            </div>
+
+            <div class="subVideo">
+
+                <h2>Job Synopsis</h2>
+
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/Y3tNtG9j_pI" frameborder="0" allowfullscreen></iframe>
+
+                <hr>
+
+                <h2>Rotation Notes</h2>
+                <p>As a BLM your elemental spells are Fire, Ice and Thunder. Fire is your primary damage element, Ice is your supportive element and Thunder is your damage over time (DoT) element. They all serve their own important roles. It is important to understand when to use each spell.</p>
+
+                <hr class="hidden">
+
+
+            </div>
+
+            </div>
+
+        </div>
+
+        <div class="thumb">
+
+            <div class="timg">
+                <img src="img/WHM.jpg" alt="#">
+            </div>
+
+            <div class="content">
+            <h3>White Mage</h3>
+            <p>White magic, the arcane art of succor, was conceived eras past that the world might know comfort. Alas, man began perverting its powers for self-gain, and by his wickedness brought about the Sixth Umbral catastrophe. Although the art subsequently became forbidden, it is now in the midst of a revival at the hands of the Padjal, chosen of the elementals.</p>
+            </div>
+
+            <button id="WHMbtn">More Info</button>
+
+            <hr>
+
+            <div class="WHMsubC">
+
+                <div class="col-5">
+
+                <h2>Main Skills</h2>
+
+                <ul>
+                    <li>Presence of Mind</li>
+                    <p>Increases casting speed of spells for 10s.</p>
+
+                    <li>Regen</li>
+                    <p>Grants healing over time effect with cure potency of 150 to target for 21s.</p>
+
+                    <li>Divine Seal</li>
+                    <p>Increases healing magic potency by 30% for 15s.</p>
+
+                    <li>Holy</li>
+                    <p>Deals magic damage with potency of 240 to all nearby enemies.
+                        Additional Effect: Stun for 4s</p>
+
+                    <li>Benediction</li>
+                    <p>Restores all of a target's HP.</p>
+                </ul>
+
+                </div>
+
+            <div class="subVideo">
+
+                <h2>Job Synopsis</h2>
+
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/xXiNrRT62O8" frameborder="0" allowfullscreen></iframe>
+
+                <hr>
+
+                <h2>Rotation Notes</h2>
+                <p>As a WHM there is no set skill rotation throughout the battle, it is entirely situational. There is some preparation work that will help you maximise your potential however. Protect should always be on all of your party members and Stoneskin should also be cast between fights. Upon engaging the monster cast Aero II to apply the damage over time effect.</p>
+
+                <hr class="hidden">
+
+
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+
+        <div class=fDiv>
+            <fieldset>
+                <legend><h2>Survey Time!</h2></legend>
+
+                <div class="formDiv">
+                    <label>Character Name</label><br>
+                    <input class="text" name="name" type="text">
+                </div>
+
+                <hr>
+
+                <div class="formDiv">
+                    <label>What Server are you in?</label><br>
+                    <input class="text" name="server" type="text">
+                </div>
+
+                <div class="formDiv">
+                    <label>When did you start Playing?</label><br>
+                    <input type="date" name="bday">
+                </div>
+
+                <label>What Job do you main?</label>
+
+                <div class="formDiv">
+                    <select>
+                        <option value="volvo">Warrior</option>
+                        <option value="saab">Paladin</option>
+                        <option value="mercedes">Monk</option>
+                        <option value="audi">Dragoon</option>
+                        <option value="audi">Black Mage</option>
+                        <option value="audi">White Mage</option>
+                    </select>
+                </div>
+
+                <label>What race are you?</label>
+
+                <div class="formDiv">
+                    <select>
+                        <option value="volvo">Hyru</option>
+                        <option value="saab">Roegadyn</option>
+                        <option value="mercedes">Miqo'te</option>
+                        <option value="audi">Lalafell</option>
+                        <option value="audi">Elezen</option>
+                    </select>
+                </div>
+
+                <div class="formDiv">
+                    <label>What is your ideal rotation?</label><br>
+                    <textarea class="textArea" name="server" maxlength="1000" clos="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+
+        </div>
+
+        <div class="videoDiv">
+
+            <h2>NEW PATCH NOTES!</h2>
+
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/mmdE7p5pwFE" frameborder="0" allowfullscreen></iframe>
+
+            <hr>
+
+            <h2>Servers Under Maintenance</h2>
+            <table>
+                <tr>
+                    <th>US Servers</th>
+                    <th>JP Servers</th>
+                </tr>
+                <tr>
+                    <td>Bahamut</td>
+                    <td>Valefor</td>
+                </tr>
+                <tr>
+                    <td>Excalibur</td>
+                    <td>gungnir</td>
+                </tr>
+                <tr>
+                    <td>Ademantoise</td>
+                    <td>Ifit</td>
+                </tr>
+                <tr>
+                    <td>Ramuh</td>
+                    <td>Odin</td>
+                </tr>
+                <tr>
+                    <td>Shiva</td>
+                    <td>Ultim</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.slidorion.js"></script>
+    <script src="js/snowfall.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

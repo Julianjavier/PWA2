@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Cinzel:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/ticker-style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Landing Page</title>
+</head>
+<body>
+
+<canvas id="snowfall"></canvas>
+
+    <div class=wrapper>
+
+        <div id=landing>
+            <img src="img/VAGRANT2.png"/>
+
+            <hr class="hidden"/>
+
+            <!--Ticker-->
+
+            <!--<ul id="js-news" class="js-hidden">-->
+                <!--<li class="news-item"><a href="#">This is the 1st latest news item.</a></li>-->
+                <!--<li class="news-item"><a href="#">This is the 2nd latest news item.</a></li>-->
+                <!--<li class="news-item"><a href="#">This is the 3rd latest news item.</a></li>-->
+                <!--<li class="news-item"><a href="#">This is the 4th latest news item.</a></li>-->
+            <!--</ul>-->
+
+            <ul>
+                <li id="registration">Registration</li>
+                <li id="login">Login</li>
+            </ul>
+
+            <hr>
+
+            <div class="login">
+                <form>
+                    <input id="user"  name="user" type="text" placeholder="Username:" required>
+                    <input id="pass"  name="pass" type="password" placeholder="Password:" required>
+                </form>
+                <hr class="hidden"/>
+                <button id="logB" type="submit">Submit</button>
+            </div>
+
+
+            <!--Registration will send user strait to wiki page or to admin page depending on the user-->
+
+            <div class="reg">
+                <form class="registration">
+                    <!--<input class="text" name="First" type="text" placeholder="First Name:">-->
+                    <!--<input class="text" name="Last" type="text" placeholder="Last Name:">-->
+                    <!--<input class="text" name="Character" type="text" placeholder="Character Name:">-->
+                    <!--<input class="text" name="Username" type="text" placeholder="Password:">-->
+                    <!--<input class="text" name="Confirm" type="text" placeholder="Confirm Password:">-->
+                    <!--<input class="text" name="Mail" type="text" placeholder="E-Mail:">-->
+                    <input class="regUser" name="user" type="text" placeholder="Username:" required>
+                    <input id="regPass" name="pass" type="text" placeholder="Password:" required>
+                    <input id=email name="mail" type="text" placeholder="E-Mail:" required>
+
+
+                </form>
+                <hr class="hidden"/>
+                <button id="regB" type="submit">Submit</button>
+            </div>
+
+            <!--End Registration-->
+
+            <hr class="hidden"/>
+
+        </div>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.ticker.js" type="text/javascript"></script>
+    <script src="js/jquery.slidorion.js"></script>
+    <script src="js/snowfall.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
