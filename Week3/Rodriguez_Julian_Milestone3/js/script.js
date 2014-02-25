@@ -36,6 +36,28 @@ $(document).ready(function() {
 
 
 
+//admin forms
+
+    $('#playerForm, #groupForm').hide();
+
+    $('#player').click(function(){
+        $('#playerForm').toggle(
+
+            function(){
+                $('#playerForm').slideDown(500)
+            });
+
+    })
+
+    $('#group').click(function(){
+        $('#groupForm').toggle(
+
+            function(){
+                $('#groupForm').slideDown(500)
+            });
+
+    })
+
 //subContent
 
 
@@ -82,7 +104,7 @@ $(document).ready(function() {
         $('.DRGsubC').toggle(
 
             function(){
-                $('.DRGsubC').slideUp(500)
+                $('.DRGsubC').slideDown(500)
             });
 
     });
@@ -145,9 +167,11 @@ $(document).ready(function() {
             type: 'post',
             dataType:'json',
             success: function(response){
-
-                window.location.assign("admin.html")
-
+                if(response.error){
+                    console.log("ERROR"+response.error);
+                }else{
+                    window.location.assign("admin.html")
+                }
             }
 
         });
@@ -182,13 +206,19 @@ $(document).ready(function() {
             type: 'post',
             dataType:'json',
             success: function(response){
-
-                window.location.assign("wiki.html")
-
+                if(responce.error){
+                    console.log("ERROR"+response.error);
+                }else{
+                    window.location.assign("wiki.html")
+                }
             }
 
         });
-    })
+    });
+
+    $('#serch-list').hide()
+
+
 
 
 

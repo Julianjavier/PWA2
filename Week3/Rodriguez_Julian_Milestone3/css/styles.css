@@ -131,6 +131,16 @@ h1{
 
 }
 
+#playerForm{
+    background-color:#fff;
+    margin-top:10px;
+}
+
+#groupForm{
+    margin-top:10px;
+    background-color:#fff;
+}
+
 
 /*Basic Structure*/
 
@@ -167,6 +177,12 @@ hr{
     margin-top:40px;
     margin-bottom:40px;
     clear:left;
+}
+
+.noClear{
+    margin-top:20px;
+    margin-bottom:20px;
+    clear:none;
 }
 
 .callAction{
@@ -323,6 +339,24 @@ hr{
     float:left;
     width:40%;
     margin:0 2% 0 2%;
+}
+
+/*This is the player page styling*/
+
+.players{
+    background-color:#fff;
+    overflow:hidden;
+    margin: 20px 0 20px 0;
+    padding:10px;
+}
+
+.players img{
+    outline:100px #2B324F;
+    float:left
+}
+
+ul li{
+    list-style:none;
 }
 
 /*--Form area--*/
