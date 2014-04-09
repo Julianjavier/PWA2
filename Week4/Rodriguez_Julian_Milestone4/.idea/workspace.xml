@@ -7,7 +7,7 @@
     <list default="true" id="ff24dcf5-26b3-4c7e-9132-69398aef9b60" name="Default" comment="" />
     <ignored path="Rodriguez_Julian_B9.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1393533454434" ignored="false" />
+    <file path="/index.html" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1397026961942" ignored="false" />
     <file path="/styles.css" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1393684635284" ignored="false" />
     <file path="/wiki.html" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1393684220909" ignored="false" />
     <file path="/admin.html" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1393198339293" ignored="false" />
@@ -24,6 +24,7 @@
     <file path="$USER_HOME$/Desktop/ajax-simple/js/main.js" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392752732055" ignored="false" />
     <file path="/main.js" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1392743446090" ignored="false" />
     <file path="/players.html" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1393685637199" ignored="false" />
+    <file path="$USER_HOME$/Web Animations/Rodriguez_Julian_Presentation/index.html" changelist="ff24dcf5-26b3-4c7e-9132-69398aef9b60" time="1397026969875" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,70 +47,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="145" selection-start="210" selection-end="210" vertical-scroll-proportion="0.08928572">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wiki.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="17" selection-start="927" selection-end="927" vertical-scroll-proportion="-16.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="13" selection-start="825" selection-end="825" vertical-scroll-proportion="-15.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="players.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/players.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="36" selection-start="2835" selection-end="2835" vertical-scroll-proportion="-56.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="23" selection-start="4106" selection-end="4106" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="12" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ticker-style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/ticker-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="80" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-1.11.0.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jquery-1.11.0.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="31144" selection-start="31228" selection-end="31228" vertical-scroll-proportion="0.0">
+            <state line="3" column="110" selection-start="105" selection-end="105" vertical-scroll-proportion="0.08928572">
               <folding />
             </state>
           </provider>
@@ -133,19 +71,19 @@
         <option value="$PROJECT_DIR$/js/1.10.js" />
         <option value="$PROJECT_DIR$/js/jquery.ticker.js" />
         <option value="$PROJECT_DIR$/css/ticker-style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/admin.html" />
         <option value="$PROJECT_DIR$/wiki.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/players.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
+    <option name="x" value="758" />
     <option name="y" value="22" />
-    <option name="width" value="1439" />
+    <option name="width" value="682" />
     <option name="height" value="844" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -188,35 +126,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rodriguez_Julian_Milestone3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rodriguez_Julian_B9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rodriguez_Julian_Milestone3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rodriguez_Julian_B9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rodriguez_Julian_Milestone3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="Rodriguez_Julian_Milestone4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,13 +169,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="22" width="1439" height="844" extended-state="6" />
-    <editor active="false" />
+    <frame x="758" y="22" width="682" height="844" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24646893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27010623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -377,28 +287,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.ticker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="134" selection-start="6091" selection-end="6106" vertical-scroll-proportion="0.33283582">
-          <folding />
-        </state>
+        <state line="165" column="134" selection-start="6091" selection-end="6106" vertical-scroll-proportion="0.33283582" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/snowfall.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="134" column="33" selection-start="4792" selection-end="4792" vertical-scroll-proportion="0.16380656" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-1.11.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31144" selection-start="31228" selection-end="31228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="825" selection-end="825" vertical-scroll-proportion="-15.625">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
@@ -415,13 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/players.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="36" selection-start="2835" selection-end="2835" vertical-scroll-proportion="-56.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/ticker-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="80" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
@@ -431,14 +318,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wiki.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="927" selection-end="927" vertical-scroll-proportion="-16.25">
+        <state line="26" column="17" selection-start="927" selection-end="927" vertical-scroll-proportion="0.16178736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="13" selection-start="825" selection-end="825" vertical-scroll-proportion="0.15625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/players.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="36" selection-start="2835" selection-end="2835" vertical-scroll-proportion="0.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.11.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="31144" selection-start="31228" selection-end="31228" vertical-scroll-proportion="13.0172415">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="145" selection-start="210" selection-end="210" vertical-scroll-proportion="0.08928572">
+        <state line="3" column="110" selection-start="105" selection-end="105" vertical-scroll-proportion="0.08928572">
           <folding />
         </state>
       </provider>
